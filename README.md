@@ -49,8 +49,6 @@ If the user withdraws the choice, set the cookie to false und Google Analytics w
 The page view will be tracked on `onRouteUpdate`.
 This plugin uses [react-ga](https://github.com/react-ga/react-ga) internally.
 
-__Important:__ Please keep in mind to set the cookies. Otherwise the tracking won't work! Tracking won't happen at all if there are no cookies or they are set so false.
-
 ## Options
 
 ### `trackingId`
