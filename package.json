@@ -1,0 +1,47 @@
+{
+  "name": "gatsby-plugin-google-analytics-gdpr",
+  "description": "Gatsby plugin to add google analytics in a gdpr form.",
+  "version": "0.0.1",
+  "author": "VirtualFox0",
+  "bugs": {
+    "url": "https://github.com/VirtualFox0/gatsby-plugin-google-analytics-gdpr/issues"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.2",
+    "react-ga": "^2.7.0",
+    "clientjs": "^0.1.5",
+    "js-cookie": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "babel-preset-gatsby-package": "^0.2.14",
+    "cross-env": "^5.2.1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "google analytics",
+    "gdpr",
+    "DSGVO",
+    "gatsby-plugin-cookiehub-banner"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "gatsby": "^2.0.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VirtualFox0/gatsby-plugin-google-analytics-gdpr.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore **/__tests__",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore **/__tests__"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
