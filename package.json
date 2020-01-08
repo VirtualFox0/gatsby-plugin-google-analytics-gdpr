@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-google-analytics-gdpr",
   "description": "Gatsby plugin to add google analytics in a gdpr form.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "VirtualFox0",
   "bugs": {
     "url": "https://github.com/VirtualFox0/gatsby-plugin-google-analytics-gdpr/issues"
