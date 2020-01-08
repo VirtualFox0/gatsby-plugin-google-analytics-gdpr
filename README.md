@@ -1,6 +1,8 @@
 # gatsby-plugin-google-analytics-gdpr
 
-Gatsby plugin to add google analytics in a gdpr form.
+Gatsby plugin to add google analytics GDPR compliant.
+
+This plugin works in an easy way together with a plugin to show cookie banner generated with CookieHub: [gatsby-plugin-cookiehub-banner](https://github.com/VirtualFox0/gatsby-plugin-cookiehub-banner)
 
 ## Install
 
