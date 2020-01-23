@@ -46,7 +46,7 @@ As soon as the user accepts your cookie policy, you can set the cookie `gatsby-p
 Depending on the user input the value should be `true` or `false`. 
 If the cookie is set to true, Google Analytics will be restarted with enabled cookies. 
 If the cookie is set to false, Google Analytics will continue without cookies.
-If the user withdraws the choice, set the cookie to false und Google Analytics will be restarted in the correct mode.
+If the user withdraws the choice, set the cookie to false and Google Analytics will be restarted in the correct mode.
 
 The page view will be tracked on `onRouteUpdate`.
 This plugin uses [react-ga](https://github.com/react-ga/react-ga) internally.
